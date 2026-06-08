@@ -177,8 +177,11 @@ docker build -t lab-web .
  => exporting to image
  => => naming to docker.io/library/lab-web:latest
  </details>
+ 
 ---
+
 ### 2. Запуск контейнера
+
 ```sh
 docker run -d --name lab_container -p 5000:5000 lab-web
 ```
@@ -193,8 +196,9 @@ docker run -d --name lab_container -p 5000:5000 lab-web
 ---
 
 ### 3. Копирование файла README.md в контейнер.
-Скопировали командой `docker cp README.md lab_container:/home/`
----
+
+Скопировали командой: `docker cp README.md lab_container:/home/`
+
 
 ### 4. Подключение к терминалу контейнера и проверка
 Команда `docker exec -it lab_container /bin/bash`
