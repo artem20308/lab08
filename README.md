@@ -292,3 +292,4 @@ ubuntu@ubuntu:~/Desktop/artem20308/workspace/projects/lab08$ curl http://localho
 </body>
 </html>
 ```
+![risunok](https://wdfiles.ru/1v5sj)
